@@ -1,0 +1,49 @@
+/*This is the main stylesheet, for use with index.html*/
+
+/*Main Styling*/
+body {
+  background: black;
+  color: lime;
+  overflow: hidden;
+}
+
+/*Header Styles*/
+h1 {
+  font-family: monospace;
+  font-size: 10em;
+  text-align: center;
+}
+h2 {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
+h3 {
+  font-family: monospace;
+}
+
+/*Paragraph Style*/
+p {
+  font-family: "chalkboard";
+  color: #00FFCC;
+  text-indent: 25px;
+}
+
+/*Link Styles*/
+a {
+  color: gray;
+  text-decoration: none;
+}
+a:hover {
+  color: #88FF55;
+}
+
+/*Tag Styles*/
+#title {
+  margin-bottom: 1000px;
+}
+#q-links {
+  margin-top: 1000px;
+}
+
+/*Class Styles*/
