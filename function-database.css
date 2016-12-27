@@ -1,0 +1,15 @@
+/* For Use with function-database.html if you have been directed here, please change the .css in the URL to .html */
+
+div {
+  padding: 5px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 600px;
+  height: 250px;
+  background: white;
+  color: black;
+}
+
+textarea {
+  overflow: hidden;
+}
