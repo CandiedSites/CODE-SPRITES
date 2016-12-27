@@ -1,4 +1,22 @@
 /*For use with main.html | if your browser has directed you here, go to http(s)://www.c0de3spr1t3s.domain/main.html*/
-#welcome {
+
+h1 {
+  font-size: 80px;
+}
+
+h3 {
   font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+#blog {
+  border: 5px inset #00FFCC;
+  margin: 5px;
+  padding: 5px;
+  overflow-x: auto;
+  width: 50%;
+  height: 250px;
 }
