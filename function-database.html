@@ -4,9 +4,61 @@
     <meta charset="utf-8">
     <title>FUNCT10N D4T4B4S3</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="function-database.css">
   </head>
   <body>
-    <h2>Sorry! This page isn't available right now! Check back in 5 minutes!<br><br><a href="main.html">Click here to go back</a></h2>
+
+    <h1>FUNCT10N D4T4B4S3</h1>
+    <h2 style="margin-top: -35px;">Because a bunch of numbers won't look too pretty</h2>
+    <h3><a href="main.html">Click here to go back</a></h3>
+
+    <h5>NOTE: Click the code and press CTRL-A and CTRL-C to copy the code. (use CMD-A and CMD-C on Mac)</h5>
+
+    <div id="kajsfuncs">
+      <h3>KAJS functions (Functions for Khan Academy's edited PJS)</h3>
+      <div class="1stfuncs">
+        <h3>1. Candied Hat's Function</h3>
+        <textarea>
+          ARRAY: (Note: Tabs are 2 spaces instead of 5)
+
+          // 2D Array Processor by Candied Hat (https://github.com/ThatGuyFromKA)
+          /*
+          HOW TO USE:
+          1. Paste this code outside of your draw function.
+          2. Paste your 2D array sprite above this function and add var yourSpriteNameHere = before the array.
+          3. Paste the color pallete for your sprite above this function,
+             adding var yourColorPalleteNameHere = before it.
+          4. Type draw_func(yourSpriteNameHere, xPos, yPos, sizeInPixels,
+          yourColorPalleteNameHere[0], yourColorPalleteNameHere[1], etc.);
+          DONE!
+          (NOTE: You can put different names for the variables, and the draw_func function
+          You can delete this comment if you want).
+          */
+          var draw_func = function (array, x, y, size, c1, c2, c3, c4, c5, c6, c7, c8, c9) {
+            // A function for drawing the pixels
+            var px = function (x, y, c) {
+              fill(c);
+              rect(x * size, y * size, size, size);
+            };
+            for(var i = 0; i < array.length; i++) {
+              for(var j = 0; j < array.length; j++) {
+                switch(array[i][j]) {
+                  case 1: px(j, i, c1);
+                  case 2: px(j, i, c2);
+                  case 3: px(j, i, c3);
+                  case 4: px(j, i, c4);
+                  case 5: px(j, i, c5);
+                  case 6: px(j, i, c6);
+                  case 7: px(j, i, c7);
+                  case 8: px(j, i, c8);
+                  case 9: px(j, i, c9);
+                }
+              }
+            }
+          };
+        </textarea>
+      </div>
+    </div>
 
   </body>
 </html>
