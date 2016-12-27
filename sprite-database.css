@@ -1,0 +1,15 @@
+/* For Use with sprite-database.html if you have been directed here, please change the .css in the URL to .html */
+
+div {
+  border: 1px solid black;
+  overflow-y: visible;
+  padding: 5px;
+  width: 600px;
+  height: auto;
+  background: white;
+  color: black;
+}
+
+textarea {
+  overflow: hidden;
+}
