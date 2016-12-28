@@ -7,18 +7,30 @@
     <link rel="stylesheet" href="sprite-database.css">
   </head>
   <body>
+
+
     <h1>SPR1T3 D4T4B4S3</h1>
     <h2 style="margin-top: -35px;">For all your pixelated needs!</h2>
     <h2><a href="main.html">Click here to go back</a></h2>
-    <h4>Click the code window and type CTRL-A/CMD-A and CTRL-C/CMD-C</h4>
-    <div id="nes">
+    <h4>Click the code window and type CTRL-A/CMD-A and CTRL-C/CMD-C to copy the code.</h4>
+
+
+    <div class="nes">
+
       <h2 style="text-align: left;">Nintendo Entertainment System (NES) Sprites</h2>
-      <div class="metroid">
+      <button class="shmetroid">Show/Hide</button>
+
+      <div class="nesmetroid">
+
         <h3>Metroid Sprites</h3>
-        <div name="items">
+        <button class="shmetroiditems">Show/Hide</button>
+
+        <div class="nesmetroiditems">
+
           <h4>Items</h4>
-          <div name="energy tank">
-            <h5>Energy Tank</h5>
+
+          <h5>Energy Tank: <button class="shmetroiditemsenergytank">Show/Hide</button></h5>
+          <div class="nesmetroiditemsenergytank">
             <h5>Sprite:</h5>
             <textarea>
               [
@@ -72,8 +84,85 @@
             <h5>Preview:</h5>
             <img src="previews/EnergyTankNES.gif" width=32 height=32>
           </div>
+
+          <h5>Missile Tank: <button class="shmetroiditemsmissiletank">Show/Hide</button></h5>
+          <div class="nesmetroiditemsmissiletank">
+            <h5>Sprite:</h5>
+            <textarea>
+              [
+                "0003333333333000",
+                "0330000000000330",
+                "3001000110001003",
+                "3010003333000103",
+                "3010003113000103",
+                "3010013113100103",
+                "3000000000000003",
+                "3000000110000003",
+                "3000000330000003",
+                "3000003333000003",
+                "3001003113001003",
+                "3001003113001003",
+                "3001014114101003",
+                "3001111111111003",
+                "3001003113001003",
+                "3333333333333333",
+              ]
+            </textarea>
+            <h5>Color Palletes:</h5>
+            <textarea>
+              [
+                  [
+                      color(252,160,68),
+                      color(0,0,0),
+                      color(248,56,0),
+                      color(0, 150, 0),
+                  ],
+                  [
+                      color(60,188,252),
+                      color(0,0,0),
+                      color(0,88,248),
+                      color(252,252,252),
+                  ],
+                  [
+                      color(164,228,252),
+                      color(0,0,0),
+                      color(248,120,88),
+                      color(0, 150, 0),
+                  ],
+                  [
+                      color(252,224,168),
+                      color(0,0,0),
+                      color(228,0,88),
+                      color(60,188,252),
+                  ],
+              ]
+            </textarea>
+            <h5>Preview:</h5>
+            <img src="previews/MissileTankNES.gif" width=32 height=32>
+          </div>
+          
         </div>
+
       </div>
+
     </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+
+      function toggleButton(button, item) {
+        $(button).click(function() {
+          $(item).toggle();
+        });
+        $(item).css('display', 'none');
+      };
+
+      toggleButton(".shmetroid", ".nesmetroid");
+      toggleButton(".shmetroiditems", ".nesmetroiditems");
+      toggleButton(".shmetroiditemsenergytank", ".nesmetroiditemsenergytank");
+      toggleButton(".shmetroiditemsmissiletank", ".nesmetroiditemsmissiletank");
+
+    </script>
   </body>
 </html>
