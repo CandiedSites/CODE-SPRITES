@@ -1,4 +1,4 @@
-# C0D3 SPR1T3S
+# C0D3 SPR1T3S(CODE SPRITES)
 ## Bringing easily editable 2D array pixelized images to the world of programmers!
 ### About CODE SPRITES
 CODE SPRITES, is an open-source website with a goal to provide amazing tools for creating pixelized images for your retro games and art! When it is released, you will be able to go to the site and take any of the 2D array images and color palletes for FREE! All we'll ask is that you give credit to the user who uploaded it, and to the code sprites website (e.g., pixel images from codespritewebsite.domain/userwhomademariosprites and codespritewebsite.domain/userwhomadebowsersprites).
