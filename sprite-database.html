@@ -18,16 +18,16 @@
     <div class="nes">
 
       <h2 style="text-align: left;">Nintendo Entertainment System (NES) Sprites</h2>
+
+      <h3>Metroid Sprites</h3>
       <button class="shnesmetroid">Show/Hide</button>
 
       <div class="nesmetroid">
 
-        <h3>Metroid Sprites</h3>
+        <h4>Items</h4>
         <button class="shnesmetroiditems">Show/Hide</button>
 
         <div class="nesmetroiditems">
-
-          <h4>Items</h4>
 
           <h5>Energy Tank: <button class="shnesmetroiditemsenergytank">Show/Hide</button></h5>
           <div class="nesmetroiditemsenergytank">
@@ -260,6 +260,74 @@
 
       </div>
 
+      <h3>The Legend of Zelda Sprites</h3>
+      <button class="shloz">Show/Hide</button>
+
+      <div class="loz">
+
+        <h4>Overworld Tiles</h4>
+        <button class="shlozowtiles">Show/Hide</button>
+
+        <div class="lozowtiles">
+
+          <h5>Stairs:<button class="shlozowtilesstairs">Show/Hide</button></h5>
+          <div class="lozowtilesstairs">
+
+            <h5>Sprite:</h5>
+            <textarea>
+              [
+                  "1111111111111111",
+                  "1333333333333331",
+                  "1223333333333331",
+                  "1221333333333331",
+                  "1221222333333331",
+                  "1221222133333331",
+                  "1221222122233331",
+                  "1221222122213331",
+                  "1221222122212221",
+                  "1221222122212221",
+                  "1221222122212221",
+                  "1221222122212221",
+                  "1221222122212221",
+                  "1221222122212221",
+                  "1221222122212221",
+                  "1111111111111111",
+              ]
+            </textarea>
+
+            <h5>Color Palettes:</h5>
+            <textarea>
+              [
+                  "1111111111111111",
+                  "1333333333333331",
+                  "1223333333333331",
+                  "1221333333333331",
+                  "1221222333333331",
+                  "1221222133333331",
+                  "1221222122233331",
+                  "1221222122213331",
+                  "1221222122212221",
+                  "1221222122212221",
+                  "1221222122212221",
+                  "1221222122212221",
+                  "1221222122212221",
+                  "1221222122212221",
+                  "1221222122212221",
+                  "1111111111111111",
+              ]
+            </textarea>
+
+            <h5>Previews:</h5>
+            <img src="previews/LOZStairsBrown.png" width=32 height=32 />
+            <img src="previews/LOZStairsGreen.png" width=32 height=32 />
+            <img src="previews/LOZStairsWhite.png" width=32 height=32 />
+
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
 
 
@@ -279,6 +347,10 @@
       toggleButton(".shnesmetroiditemsmissiletank", ".nesmetroiditemsmissiletank");
       toggleButton(".shnesmetroiditemsmarumari", ".nesmetroiditemsmarumari");
       toggleButton(".shnesmetroiditemsbombupgrade", ".nesmetroiditemsbombupgrade");
+
+      toggleButton(".shloz", ".loz");
+      toggleButton(".shlozowtiles", ".lozowtiles");
+      toggleButton(".shlozowtilesstairs", ".lozowtilesstairs");
 
     </script>
   </body>
