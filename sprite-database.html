@@ -18,18 +18,18 @@
     <div class="nes">
 
       <h2 style="text-align: left;">Nintendo Entertainment System (NES) Sprites</h2>
-      <button class="shmetroid">Show/Hide</button>
+      <button class="shnesmetroid">Show/Hide</button>
 
       <div class="nesmetroid">
 
         <h3>Metroid Sprites</h3>
-        <button class="shmetroiditems">Show/Hide</button>
+        <button class="shnesmetroiditems">Show/Hide</button>
 
         <div class="nesmetroiditems">
 
           <h4>Items</h4>
 
-          <h5>Energy Tank: <button class="shmetroiditemsenergytank">Show/Hide</button></h5>
+          <h5>Energy Tank: <button class="shnesmetroiditemsenergytank">Show/Hide</button></h5>
           <div class="nesmetroiditemsenergytank">
             <h5>Sprite:</h5>
             <textarea>
@@ -85,7 +85,7 @@
             <img src="previews/EnergyTankNES.gif" width=32 height=32>
           </div>
 
-          <h5>Missile Tank: <button class="shmetroiditemsmissiletank">Show/Hide</button></h5>
+          <h5>Missile Tank: <button class="shnesmetroiditemsmissiletank">Show/Hide</button></h5>
           <div class="nesmetroiditemsmissiletank">
             <h5>Sprite:</h5>
             <textarea>
@@ -140,7 +140,122 @@
             <h5>Preview:</h5>
             <img src="previews/MissileTankNES.gif" width=32 height=32>
           </div>
-          
+
+          <h5>Maru-Mari (Morph Ball): <button class="shnesmetroiditemsmarumari">Show/Hide</button></h5>
+          <div class="nesmetroiditemsmarumari">
+
+            <h5>Sprite:</h5>
+            <textarea>
+              [
+                  "000011110000",
+                  "001113311100",
+                  "011331111110",
+                  "013331111110",
+                  "113311111111",
+                  "131111111111",
+                  "131111111111",
+                  "111111111111",
+                  "111111111111",
+                  "011111111210",
+                  "011111122110",
+                  "001112221100",
+                  "000011110000",
+              ]
+            </textarea>
+
+            <h5>Color Palettes:</h5>
+            <textarea>
+              [
+                  [
+                      color(252,160,68),
+                      color(0,0,0),
+                      color(248,56,0),
+                      color(0, 150, 0),
+                  ],
+                  [
+                      color(60,188,252),
+                      color(0,0,0),
+                      color(0,88,248),
+                      color(252,252,252),
+                  ],
+                  [
+                      color(164,228,252),
+                      color(0,0,0),
+                      color(248,120,88),
+                      color(0, 150, 0),
+                  ],
+                  [
+                      color(252,224,168),
+                      color(0,0,0),
+                      color(228,0,88),
+                      color(60,188,252),
+                  ],
+            </textarea>
+
+            <h5>Preview:</h5>
+            <img src="previews/MaruMariNES.gif" width=32 height=32 />
+
+          </div>
+
+          <h5>Bomb Upgrade: <button class="shnesmetroiditemsbombupgrade">Show/Hide</button></h5>
+          <div class="nesmetroiditemsbombupgrade">
+
+            <h5>Sprite:</h5>
+            <textarea>
+              [
+                    "0004444444444000",
+                    "0040000000000400",
+                    "0040100000000400",
+                    "0401000000000040",
+                    "0400003333000040",
+                    "0400031333300040",
+                    "0400333322330040",
+                    "0400332244230040",
+                    "0400332244230040",
+                    "0400333322330040",
+                    "0400031333300040",
+                    "0400003333000040",
+                    "0400000000000040",
+                    "0400000440000040",
+                    "0111111111111110",
+                    "0001111111111000",
+                ]
+            </textarea>
+
+            <h5>Color Palette:</h5>
+            <textarea>
+              [
+                    [
+                        color(252,160,68),
+                        color(0,0,0),
+                        color(248,56,0),
+                        color(0, 150, 0),
+                    ],
+                    [
+                        color(60,188,252),
+                        color(0,0,0),
+                        color(0,88,248),
+                        color(252,252,252),
+                    ],
+                    [
+                        color(164,228,252),
+                        color(0,0,0),
+                        color(248,120,88),
+                        color(0, 150, 0),
+                    ],
+                    [
+                        color(252,224,168),
+                        color(0,0,0),
+                        color(228,0,88),
+                        color(60,188,252),
+                    ],
+                ]
+            </textarea>
+
+            <h5>Preview:</h5>
+            <img src="previews/BombUpgradeNES.gif" width=32 height=32 />
+
+          </div>
         </div>
 
       </div>
@@ -158,10 +273,12 @@
         $(item).css('display', 'none');
       };
 
-      toggleButton(".shmetroid", ".nesmetroid");
-      toggleButton(".shmetroiditems", ".nesmetroiditems");
-      toggleButton(".shmetroiditemsenergytank", ".nesmetroiditemsenergytank");
-      toggleButton(".shmetroiditemsmissiletank", ".nesmetroiditemsmissiletank");
+      toggleButton(".shnesmetroid", ".nesmetroid");
+      toggleButton(".shnesmetroiditems", ".nesmetroiditems");
+      toggleButton(".shnesmetroiditemsenergytank", ".nesmetroiditemsenergytank");
+      toggleButton(".shnesmetroiditemsmissiletank", ".nesmetroiditemsmissiletank");
+      toggleButton(".shnesmetroiditemsmarumari", ".nesmetroiditemsmarumari");
+      toggleButton(".shnesmetroiditemsbombupgrade", ".nesmetroiditemsbombupgrade");
 
     </script>
   </body>
