@@ -1,19 +1,19 @@
 /*This is the main stylesheet, for use with index.html*/
 
 /*Font Loading*/
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 /*Main Styling*/
 body {
   background: black;
   color: lime;
-  font-family: "Cutive Mono", monospace;
+  font-family: "Source Code Pro", monospace;
 }
 
 /*Header Styles*/
 h1 {
   text-align: center;
-  font-family: "Courier New", monospace;
+  font-family: inherit;
   font-size: 75px;
 }
 
