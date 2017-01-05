@@ -1,10 +1,13 @@
 /*This is the main stylesheet, for use with index.html*/
 
+/*Font Loading*/
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
 /*Main Styling*/
 body {
   background: black;
   color: lime;
-  font-family: monospace;
+  font-family: "Cutive Mono", monospace;
 }
 
 /*Header Styles*/
@@ -14,12 +17,12 @@ h1 {
 }
 
 h2 {
-  font-family: monospace;
+  font-family: inherit;
   font-size: 20px;
   text-align: center;
 }
 h3 {
-  font-family: monospace;
+  font-family: inherit;
 }
 
 /*Paragraph Style*/
