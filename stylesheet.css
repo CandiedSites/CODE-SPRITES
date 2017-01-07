@@ -53,6 +53,7 @@ a:hover {
 
 /*Code Block Styles*/
 textarea {
-  background: black;
+  background: #333;
+  color: gray;
   font-family: monospace;
 }
