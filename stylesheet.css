@@ -22,6 +22,7 @@ h2 {
   font-size: 20px;
   text-align: center;
 }
+
 h3 {
   font-family: inherit;
 }
@@ -50,4 +51,8 @@ a:hover {
   margin-top: 1000px;
 }
 
-/*Class Styles*/
+/*Code Block Styles*/
+textarea {
+  background: black;
+  font-family: monospace;
+}
